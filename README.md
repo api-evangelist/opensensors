@@ -64,19 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OpenSensors delivers workplace occupancy analytics and scenario modelling, helping commercial real‑estate teams cut costs and plan hybrid workplaces with confidence. Their platform provides sensor‑driven data, analytics, and decision‑making tools for space utilization.
+OpenSensors helps organisations measure how their workplaces are used and turn occupancy data into confident space, lease and design decisions. At OpenSensors, our mission is to make sustainability a reality for every workplace in the world. We provide data‑driven workplace analytics to optimise space utilisation, reduce costs and accelerate sustainability.
 
-**Areas:** Company · WorkplaceAnalytics · RealEstateTech · IoT · DataAnalytics
+**Areas:** Company · IoT · Workplace-Analytics · Sustainability · Real-Estate
 
 ## OpenSensors on APIs.io
 
 Everything profiled for OpenSensors is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/opensensors/](https://apis.io/providers/opensensors/)** — or go straight to one of the APIs or properties below.
 
-### APIs (3)
+### APIs (1)
 
-- [OpenSensors API](https://apis.io/apis/opensensors/opensensors-api/) — OpenSensors provides workplace occupancy analytics and scenario modelling via its platform.
-- [OpenSensors Analytics API](https://apis.io/apis/opensensors/opensensors-analytics-api/) — A collection of methods used to retrieve sensor data for your project
-- [OpenSensors Authentication API](https://apis.io/apis/opensensors/opensensors-authentication-api/) — To make request to our API you will need to an API key, which you can get from the "Get Api Key" section in app.opensensors.com. Then use auth/login api to…
+- [OpenSensors API](https://apis.io/apis/opensensors/opensensors-api/) — Documentation for the OpenSensors public API.
 
 ### Published properties
 
@@ -88,17 +86,42 @@ Which operations an agent can call, which act, and which need a human in the loo
 
 - [Opensensors Agentic Access](https://apis.io/agentic-access/opensensors/opensensors-agentic-access/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Opensensors Openapi Overlay](https://apis.io/overlays/opensensors/opensensors-openapi-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
 
 - [OpenSensors API Rules](https://apis.io/rules/opensensors/opensensors-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Opensensors Authentication](https://apis.io/security/opensensors/opensensors-authentication/)
 - [Opensensors Domain Security](https://apis.io/security/opensensors/opensensors-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Opensensors Scopes](https://apis.io/scopes/opensensors/opensensors-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Opensensors Plans Pricing](https://apis.io/plans/opensensors/opensensors-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Opensensors Rate Limits](https://apis.io/rate-limits/opensensors/opensensors-rate-limits/)
 
 ## Where to find this API
 
@@ -111,32 +134,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 29.4** — thin · rubric 0.24.0 · scored 2026-10-29
+**Kin Score 23.7** — emerging · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 37.3 |
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 9.5 |
+| Developer ergonomics | 16.0 |
 | Access clarity | 10.5 |
 
-**Agent readiness 44.8** — agent-ready (gated down from agent-native)
+**Agent readiness 32.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
-| OpenAPI Examples | verified |
-| Rate Limit Signal | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -145,8 +168,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/opensensors/](https://apis.io/providers/opensensors/).
 
